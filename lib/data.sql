@@ -1,6 +1,6 @@
-to seed data in: 
-1. first create the database
-2. sqlite3 name_of_database.db < name_of_seed_data_file.sql
+-- to seed data in: 
+-- 1. first create the database
+-- 2. sqlite3 name_of_database.db < name_of_seed_data_file.sql
 
 INSERT INTO users (id, name, age) VALUES (1, 'Finnebar', 17), (2, 'Bear', 6), (3, 'Iguana', 4), (4, 'Alex', 33),
 (5, 'Amanda', 24), (6, 'Sophie', 24), (7, 'Rosey', 9), (8, 'Victoria', 23), (9, 'Franz', 100), (10, 'Hermione', 30),
